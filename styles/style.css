@@ -1,0 +1,54 @@
+@import "../font/casper.css";
+
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Casper';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    background-color: #222222;
+}
+
+.page {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 100px;
+}
+
+main {
+    min-height: 700px;
+    width: 1200px;
+}
+
+.content {
+    height: 700px;
+    background: url("../img/backgroundImg.png") no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content div {
+    height: 700px;
+    width: 70%;
+}
+
+p {
+    padding: 10px 50px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 18px;
+    color: #e83f43;
+}
+
+.strike {
+    text-decoration: line-through;
+}
