@@ -13,11 +13,11 @@ body {
     display: flex;
     justify-content: center;
     overflow: auto;
-    background-color: #222222;
+    background-color: #383a3d;
 }
 
 .page {
-    background-color: #222222;
+    background-color: #383a3d;
     display: flex;
     align-items: center;
     box-shadow: 0 0 100px;
